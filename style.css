@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.slider{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.line{
+    height:6px;
+    width:350px;
+    border-radius: 4px;
+    background-color: gainsboro;
+    position: relative;
+}
+.innerline{
+    width: 0px;
+    height:100%;
+    border-radius: 4px;
+    background-color: green;
+}
+.button{
+    width:15px;
+    height:15px;
+    position:absolute;
+    border-radius: 50%;
+    background-color: green;
+    left: 0px;
+    top:-5px;
+    cursor: pointer;
+}
+p{
+    bottom:-20px;
+    right:220px;
+    color: green;
+    font-weight: bold;
+}
